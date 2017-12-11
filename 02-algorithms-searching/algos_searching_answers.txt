@@ -1,0 +1,36 @@
+1. It would take 6 iterations to find G with a linear search.
+2. It would take 3 interations to find G with a binary search.
+3. 
+    fib(10)
+    0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55 -> 55
+    
+    fib(11)
+    34, 55, 89 -> 89
+    
+    fib(12)
+    55, 89, 144 -> 144
+    
+----------------------------------------------------------------------------------- 
+
+For Fib(20) iterative vs recursive:
+       user     system      total        real
+Recursive:   0.000000   0.000000   0.000000 (  0.001238)
+Iterative:   0.000000   0.000000   0.000000 (  0.000006)
+
+Iterative is much faster.
+
+-----------------------------------------------------------------------------------
+
+Given an unsorted collection of a million items, which algorithm would you choose 
+between linear search and binary search? Would you use an iterative or recursive solution? 
+Explain your reasoning.
+
+    Linear because binary requires a sorted collection. Iterative because a recursive
+    solution would take too much run time.
+
+Given a sorted collection of a million items, which algorithm would you choose 
+between linear search and binary search? Would you use an iterative or recursive solution?
+Explain your reasoning.
+
+    Binary because it is much faster than linear when you have a sorted list. Iterative
+    solution again because of the size you are dealing with.
