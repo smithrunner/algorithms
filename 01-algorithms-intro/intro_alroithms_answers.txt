@@ -1,0 +1,29 @@
+1. DECIDING TO WEAR A JACKET OR NOT
+    unlock phone
+    open weather app
+    check current temperature
+    IF current temperature is greater than 65 THEN
+        no jacket needed
+    ELSE
+        put on jacket
+    END
+    
+2. As a cyclist, how many bikes should you own?
+    n = number of bikes you currently own
+    savings = amount of dollars in your savings account
+    price = price of new bike
+    
+    WHILE savings > price THEN
+        n = n + 1
+        savings = savings - price
+    END
+    
+3. Making coffee
+    plug in machine
+    add coffee filter
+    add 3 scoops of coffee grounds
+    add 6 cups of water
+    press 'on' button
+    wait impatiently
+    drink coffee
+    
