@@ -1,0 +1,14 @@
+*** Graph is provided in Book1.pdf ****
+
+You can see that for our array of 50 random numbers, Bucket Sort is the fastest,
+Quick Sort is next and Heap Sort is the slowest.
+
+Our Bucket sort speed depends on the number of buckets, which I test a few different
+numbers. There is an optimal number of buckets where the sorting is fast because there aren't
+many numbers in each bucket, but there arent too many buckets either. It looks like for this
+size array, the optimal number is somewhere between 5 and 10. Although more testing would be needed.
+
+I am not surprised heap sort is the slowest since it involves making a binary tree repeatedly. It
+seems to have the most steps. Quick sort's speed is also probably dependant on how "scrambled" the array is.
+I imagine bucket sort speed would be roughly the same regardless of the scrambled-ness since it will
+look at each item of the array and put it in a bucket regardless.
