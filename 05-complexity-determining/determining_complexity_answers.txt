@@ -1,0 +1,31 @@
+1. O(1). No matter what n is, this method will print 1 line.
+
+2. O(n). This method will have to loop through every item in the collection to
+    determine the largest value. So the time to run is dependent on the size of the
+    collection.
+    
+3. O(n*m) where n is the number of arrays and m is the number of items in each array,
+    assuming that each array has the same number of elements. If m = n, it would be
+    n^2
+    
+4.     n (big number)  2^0
+    /     \
+    n-1   n-2          2^1
+  /  \   /   \ 
+n-2  n-3 n-3  n-4      2^2
+
+   so it is O(2^n)
+   
+   
+5. This problem has 4 operations that are done n times. So 4 * n, or
+    a constant number * n. so O(n)
+    
+6. This is a quick sort method. Lets describe the worst case scenario:
+you pick a pivot index and divide the array of length into 2 arrays, that are size
+0 and size n-1. Poop. You do this again and get 2 arrays of size 0 and n-2. Crap.
+This would repeat until you get 2 arrays of size 0 and 1. 
+
+So it would take (n-1) times to get to that array of size 0 and 1. BUT you are splitting
+each array and calling the method again on BOTH arrays. So that is (n-1)*(n-1) operations. 
+that is (n^2)-2n+1. The largest part of that equation is n^2. So the worst case is
+O(n^2).
