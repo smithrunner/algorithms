@@ -1,0 +1,59 @@
+1) Describe an analogy for relating an algorithm that has efficiency O(1)
+   and another algorithm that has O(2n). An example would be:
+
+        An algorithm that has O(1) is a Cheetah and an algorithm that has O(2n) is a Snail.
+        
+    ANSWER: Your mom looking for an item in the house: O(1), super fast.
+            You looking for an item in the house: O(2n), super slow.
+    
+2) In plain English, what is the best case scenario for binary search?
+    
+    ANSWER: The first element you check is the one you are looking for.
+            The best case scenario is omega(1).
+
+3) In plain English, what is the worst-case scenario for binary search?
+
+    ANSWER: Worst case is you have to do the max number of divisions/searches to
+            find your element. The larger your "n" is, the more searches in the worst
+            case scenario. O(log n).
+
+4) In plain English, what is the bounded-case scenario for binary search?
+
+    ANSWER: Bounced case would be you find your element after a few divisions/searches.
+            This middle number would still be depended on the size of "n", so the bounded
+            case is also log(n).
+
+5) Create a graph using the data below. Here's a CSV with the values you'll need.
+
+    ANSWER: Graph saved as loglinear_intro.pdf in this root directory.
+
+6) What is the limit of the function above as n approaches infinity?
+
+    ANSWER: infinity
+
+7) What is the Big-O of an algorithm that has the data points above?
+
+    ANSWER: log n
+
+8) Write a Ruby method that takes a number n. This method must print the worst-case 
+   number of iterations for linear search to find an item in collections of size one to n. 
+   Use it to generate a table of worst-case iterations of collections up to size 10.
+   
+   ANSWER: saved as complex_intro.rb in this root directory
+   
+9) Create a graph from the output using Google Sheets or other graphing software. 
+   Analyze the graph and denote its Big-O somewhere on the graph.
+   
+   ANSWER: saved as bigO_linear_search.pdf in this root directory
+   
+10)What is the Big-O of binary search?
+
+    ANSWER: O(log n)
+
+11)What is the Big-Ω of binary search?
+
+    ANSWER: omega(1)
+
+12)What is the Big-Ө of binary search?
+
+    ANSWER: theta(log n)
